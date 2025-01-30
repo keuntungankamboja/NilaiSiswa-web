@@ -1,0 +1,173 @@
+ /*
+ * Facebook Style Add Friends Script
+ *  http://www.amitpatil.me/
+ *
+ * @version
+ * 1.0 (May 20 2010)
+ * 
+ * @copyright
+ * Copyright (C) 2010-2011 
+ *
+ * @Auther
+ * Amit Patil 
+ * Maharashtra (India) 
+ *
+ * @license
+ * This file is part of Facebook Style Add Friends.
+ * 
+ * Facebook Style Add Friends Script is freeware script. you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Facebook Style Add Friends Script is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this script.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+*{
+	font-family : verdana;
+	font-size:12px;
+}
+.main{
+	margin : 20px;
+}
+body{
+	color:#222222;
+	font-family:"Helvetica Neue","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+h2{
+	font-size:3em;
+	line-height:1;
+	margin-bottom:0.5em;
+	font-weight : normal;
+	color : #3B5998;
+}
+.title{
+	background : #FFFFBB;
+	font-size:1.8em;
+	padding : 0px 5px;
+	margin : 10px 0px;
+}
+.auther{
+	color : #6B6B6B;
+	width:400px;
+	text-align : left;
+	font-size: 11px;
+	margin : 3px
+}
+
+.demo textarea{
+	float: left;
+	margin-left: 30px;
+}
+.demo div{
+	float:left;
+}
+
+#info{
+	line-height : 20px;
+}
+.fb_holder{
+	border : 1px solid #747474;
+	width  : 400px !important;
+	height : auto;
+	text-align : left;
+	overflow:visible;
+}
+.fb_holder input{
+	border : none;
+	margin:0;
+	outline:0 none;
+	padding:3px 0 2px;
+	height : 23px;
+}
+.fb_friends_list{
+	border : 1px solid #E0E6FC;
+	background : white;
+	width : 200px;
+	background : #F4F4F4;
+	padding :0px;
+	-moz-border-radius : 5px;
+}
+.list{
+	margin-left:0px;
+	padding:0px;
+	width : 100%;
+	background : #EEEEEE;
+	list-style-type: none; 
+	padding: 0;
+	margin-top: 3px; 
+}
+.list li{
+	list-style : none;
+	width : 100%;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:0 1px 1px;
+}
+.list a{
+	display : block;
+	color:black;
+	text-decoration : none;
+	padding : 5px;
+	cursor : auto;
+}
+.selected{
+	background : #678FD6;
+	border : 1px solid #5F5F5F;
+}
+.selected span{
+	background : #678FD6;
+	color: white;
+}
+.selected a{
+	color: white;
+}
+.added{
+	background:none repeat scroll 0 0 #DEE7F8;
+	border:1px solid #CAD8F3;
+	-moz-border-radius : 6px;
+	overflow:auto;
+	float:left;
+	clear:right;
+	padding : 1px 2px;
+	margin : 2px;
+	font-size: 11px;
+}
+.added-hover{
+	background:#BBCEF1;
+	border:1px solid #6D95E0;
+}
+#close{
+	color:#8F8F8F;
+	margin-top :-5px;
+	margin-left:3px;
+	cursor : pointer;
+	font-weight : bold;
+}
+#loading{
+	visibility:hidden;
+	padding-left:5px;
+}
+#ajax_response{
+	position:absolute;
+	top:auto;
+	display : none;
+}
+.matched{
+	font-weight:bold;
+	color: #000000;
+	background : #D8D8D8;
+}
+.selected-friend{
+	background : #598BEC;
+	color: white;
+	border : 1px solid #598BEC;
+}
+.selected-friend .close{
+	color: #8F8F8F;
+}
